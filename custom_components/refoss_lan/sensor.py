@@ -37,6 +37,7 @@ class RefossSensorEntityDescription(SensorEntityDescription):
 DEVICETYPE_SENSOR: dict[str, str] = {
     "em06": SENSOR_EM,
     "em16": SENSOR_EM,
+    "em16p": SENSOR_EM,
 }
 
 SENSORS: dict[str, tuple[RefossSensorEntityDescription, ...]] = {
